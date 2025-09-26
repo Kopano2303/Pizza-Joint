@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%; /* Default scaling base */
+  }
+  /*Defining the decoration, typography, and the layout for BlueWave website*/
+  header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: #621c0a;
+  }
+  
+  header img {
+        max-width: 150px;/*10rem for flexible logo size*/
+        height: auto;
+  }
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgrey;
+}
+
+.nav-links a {
+    /*display: block;*/
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: medium;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+section nav.icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+  main{
+      background-color: darkgray;
+  }
+
+/* Main content */
+main {
+    text-align: center;
+}
+
+h1 {
+    background-color: burlywood;
+    font-size: 2rem;
+    border-bottom: 0.5px solid #333; /* line below h1 */
+    
+}
+
+body.home h2 {
+    text-align: center;
+    background-color: burlywood;
+    border-bottom: 0.5px solid #333;
+}
+
+body.home p{
+    text-align: center;
+    background-color: burlywood;
+    font-size: 2rem;    
+}
+
+body.about p{
+    background-color: white;
+}
+
+body.contact main{
+   text-align: center;
+}
+
+body.contact h2{
+    text-align: left;
+}
+
+.contact-form {
+    max-width: 600px;              /* Limit form width */
+    max-height: 400px;
+    margin: 40px auto;             /* Center form horizontally with top margin */
+    padding: 20px;                 /* Inner spacing */
+    background: #fff;              /* White background for card effect */
+    border-radius: 10px;           /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Table styling inside form */
+.contact-form table {
+    width: 100%;                  /* Full width inside the card */
+    border-collapse: collapse;    /* Remove default table spacing */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;                  /* Make inputs fill available space */
+    padding: 8px;                 /* Inner spacing inside inputs */
+    border: 1px solid #ccc;       /* Light border */
+    border-radius: 6px;           /* Rounded input edges */
+    font-size: 14px;              /* Text size */
+    box-sizing: border-box;       /* Ensures padding doesn’t affect width */
+}
+
+/* Submit button */
+.contact-form input[type="submit"] {
+    padding: 10px 15px;           /* Button padding */
+    background: #007bff;          /* Blue background */
+    color: white;                 /* White text */
+    border: none;                 /* Remove default border */
+    border-radius: 6px;           /* Rounded button corners */
+    font-size: 15px;              /* Slightly larger text */
+    cursor: pointer;              /* Pointer on hover */
+    transition: background 0.3s ease; /* Smooth color change */
+}
+
+/* Submit button hover effect */
+.contact-form input[type="submit"]:hover {
+    background: #0056b3;          /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer.color p {
+    color: white;
+}
+
+.menu-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu-page body, .menu-page {
+    background: #fff4e6;
+    color: #4d2600;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .menu-page header {
+    text-align: center;
+    padding: 30px 0;
+    background: #ff6b6b;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .menu-page header h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #c94c4c;
+  }
+  
+  .menu-page main {
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
+  .menu-page section {
+    margin-bottom: 50px;
+  }
+  
+  .menu-page section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffcc33;
+    padding-bottom: 5px;
+    color: #d94f00;
+  }
+  
+  .menu-page ul {
+    list-style: none;
+  }
+  
+  .menu-page li {
+    background: #fff8e1;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-left: 8px solid #ff6b6b;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .menu-page li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+  }
+  
+  .menu-page h3 {
+    font-size: 1.5em;
+    color: #d94f00;
+    margin-bottom: 5px;
+  }
+  
+  .menu-page p {
+    font-size: 1em;
+    color: #4d2600;
+    margin-bottom: 5px;
+  }
+
+  .staff-team {
+    display: flex;                /* Align staff horizontally */
+    flex-wrap: wrap;              /* Wrap if too many for one row */
+    justify-content: center;      /* Center the whole row */
+    gap: 15px;                    /* Space between staff cards */
+    padding: 20px;
+}
+
+.staff {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;                /* Smaller padding for compact size */
+    width: 150px;                 /* Smaller width for small cards */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.staff:hover {
+    transform: translateY(-5px);  /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.staff-img {
+    width: 100%;
+    height: 150px;               
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.staff p {
+    font-size: 14px;              
+    font-weight: bold;
+    color: #333;
+    line-height: 1.3;
+}
+
+ody.order-page .contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff8f0;          /* Light pizza-themed background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Table styling inside form */
+body.order-page .contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Inputs and textarea */
+body.order-page .contact-form input[type="text"],
+body.order-page .contact-form input[type="email"],
+body.order-page .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+body.order-page .contact-form input[type="submit"] {
+    padding: 10px 15px;
+    background: #e74c3c;           /* Pizza red */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Hover effect for submit button */
+body.order-page .contact-form input[type="submit"]:hover {
+    background: #c0392b;           /* Darker red on hover */
+}
+
+/* Optional: h2 styling */
+body.order-page .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d35400;                /* Pizza orange accent */
+}
